@@ -1,0 +1,76 @@
+title {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+/* Cool infinite background scrolling animation.
+ * Twitter: @kootoopas
+ */
+/* Exo thin font from Google. */
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 400px 400px;
+    }
+    }
+    @-moz-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 400px 400px;
+    }
+    }
+    @-o-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 400px 400px;
+    }
+    }
+    @keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 400px 400px;
+    }
+    }
+    @-webkit-keyframes bg-scrolling {
+    0% {
+        background-position: 400px 400px;
+    }
+    }
+    @-moz-keyframes bg-scrolling {
+    0% {
+        background-position: 400px 400px;
+    }
+    }
+    @-o-keyframes bg-scrolling {
+    0% {
+        background-position: 400px 400px;
+    }
+    }
+    @keyframes bg-scrolling {
+    0% {
+        background-position: 400px 400px;
+    }
+}
+/* Main styles */
+body {
+  /* img size is 50x50 */
+    background: url("./fancy-cushion.webp") repeat 0 0;
+    -webkit-animation: bg-scrolling-reverse 5.92s infinite;
+  /* Safari 4+ */
+    -moz-animation: bg-scrolling-reverse 5.92s infinite;
+  /* Fx 5+ */
+    -o-animation: bg-scrolling-reverse 5.92s infinite;
+  /* Opera 12+ */
+    animation: bg-scrolling-reverse 5.92s infinite;
+  /* IE 10+ */
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
