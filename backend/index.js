@@ -12,7 +12,7 @@ app.use(cors());
 
 app.get('/', (request, response) => {
   console.log(request);
-  return response.status(234).send('Welcome To MERN Stack Tutorial');
+  return response.status(234).send('O servidor está rodando!!!!!');
 });
 
 app.use('/books', booksRoute);
@@ -20,9 +20,9 @@ app.use('/books', booksRoute);
 mongoose
   .connect(mongoDBURL)
   .then(() => {
-    console.log('App connected to database');
+    console.log('App conectado a base de dados');
     app.listen(PORT, () => {
-      console.log(`App is listening to port: ${PORT}`);
+      console.log(`App está escutando a porta: ${PORT}`);
     });
   })
   .catch((error) => {

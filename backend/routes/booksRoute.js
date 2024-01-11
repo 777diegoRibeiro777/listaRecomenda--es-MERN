@@ -77,10 +77,10 @@ router.put('/:id', async (request, response) => {
     const result = await Book.findByIdAndUpdate(id, request.body);
 
     if (!result) {
-      return response.status(404).json({ message: 'Book not found' });
+      return response.status(404).json({ message: 'Recomendação não encontrada' });
     }
 
-    return response.status(200).send({ message: 'Book updated successfully' });
+    return response.status(200).send({ message: 'Recomendação atualizada com sucesso' });
   } catch (error) {
     console.log(error.message);
     response.status(500).send({ message: error.message });
@@ -95,10 +95,10 @@ router.delete('/:id', async (request, response) => {
     const result = await Book.findByIdAndDelete(id);
 
     if (!result) {
-      return response.status(404).json({ message: 'Book not found' });
+      return response.status(404).json({ message: 'Recomendação não encontrada' });
     }
 
-    return response.status(200).send({ message: 'Book deleted successfully' });
+    return response.status(200).send({ message: 'Recomendação deletada com sucesso' });
   } catch (error) {
     console.log(error.message);
     response.status(500).send({ message: error.message });

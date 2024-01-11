@@ -24,7 +24,7 @@ const CreateBooks = () => {
       .post('http://localhost:5555/books', data)
       .then(() => {
         setLoading(false);
-        enqueueSnackbar('Book Created successfully', { variant: 'success' });
+        enqueueSnackbar('Recomendação criada com sucesso', { variant: 'success' });
         navigate('/');
       })
       .catch((error) => {

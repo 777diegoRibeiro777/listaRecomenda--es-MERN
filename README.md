@@ -33,11 +33,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto tem como principal objetivo desenvolver um programa capaz de consumir a API do GitHub para apresentar informações detalhadas sobre um usuário específico. Para alcançar esse propósito, optou-se pelo uso das tecnologias Javascript, React, Next.js e Chakra UI. A escolha dessas ferramentas visa agilizar e dinamizar o processo de criação do projeto.
+O principal objetivo deste projeto é desenvolver um programa fullstack que seja capaz de criar uma lista personalizada de recomendações, abrangendo filmes, séries, animações e livros, com base nas preferências do usuário. Para alcançar esse propósito, optei por utilizar a stack MERN, que inclui MongoDB para o banco de dados, Express para o backend, React JS para o frontend, e Node JS para a construção do servidor.
 
-Destacando-se, em particular, o papel fundamental do Chakra UI, que desempenhou um papel crucial ao padronizar e aprimorar o design do projeto de forma coerente. A integração desta biblioteca facilitou a execução das tarefas, proporcionando uma experiência de desenvolvimento mais eficiente.
+A escolha da biblioteca de estilos CSS Tailwind foi fundamental, pois proporcionou uma abordagem eficiente e dinâmica na criação do frontend, otimizando o desenvolvimento da interface do usuário.
 
-Este projeto proporcionou uma oportunidade valiosa para aprofundar os conhecimentos em consumo de dados por meio de uma API e a apresentação dessas informações. Ao final, a combinação estratégica dessas tecnologias contribuiu para uma implementação eficaz e uma experiência de usuário mais refinada.
+O programa oferece diversas funcionalidades, permitindo que o usuário crie recomendações, visualize detalhes adicionais, edite informações existentes e exclua recomendações conforme necessário. Um destaque importante é a flexibilidade na apresentação das recomendações, oferecendo ao usuário a opção de visualizar a lista em formato de tabela ou de cards, de acordo com suas preferências visuais.
+
+Ao adotar essa abordagem fullstack e integrar as tecnologias mencionadas, o projeto busca proporcionar uma experiência completa e personalizável para o usuário, garantindo uma gestão eficiente de suas recomendações culturais.
 
 ## 🔖 Layout
 

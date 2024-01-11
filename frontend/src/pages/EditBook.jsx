@@ -24,7 +24,7 @@ const EditBook = () => {
         setLoading(false);
       }).catch((error) => {
         setLoading(false);
-        alert('An error happened. Please Chack console');
+        alert('Um erro aconteceu. Favor, verificar o console');
         console.log(error);
       });
   }, [])
@@ -40,7 +40,7 @@ const EditBook = () => {
       .put(`http://localhost:5555/books/${id}`, data)
       .then(() => {
         setLoading(false);
-        enqueueSnackbar('Book Edited successfully', { variant: 'success' });
+        enqueueSnackbar('Recomendação editada com sucesso', { variant: 'success' });
         navigate('/');
       })
       .catch((error) => {
