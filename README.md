@@ -6,19 +6,49 @@ Projeto desenvolvido no treinamento programador fullstack (Realizado pelo SENAI)
 </p>
 
 <br>
-  <img alt="Tela home" src="./src/img/telaInicial.png" width="100%">
+  <img alt="Tela home" src="./frontend/src/assets/home1.png" width="100%">
 <p align="center">
-Tela Inicial.
+Tela Inicial (Tabela).
 </p>
 
 <br>
-  <img alt="Tela criação de recomendação" src="./src/img/secaoRepositorio.png" width="100%">
+  <img alt="Tela criação de recomendação" src="./frontend/src/assets/home2.png" width="100%">
 <p align="center">
-Seção com os Repositórios.
+Tela Inicial (Card).
+</p>
+
+<br>
+  <img alt="Tela criação de recomendação" src="./frontend/src/assets/criarRecomendacao.png" width="100%">
+<p align="center">
+Criar recomendação.
+</p>
+
+<br>
+  <img alt="Tela criação de recomendação" src="./frontend/src/assets/maisInformacoes.png" width="100%">
+<p align="center">
+Mais informações.
+</p>
+
+<br>
+  <img alt="Tela criação de recomendação" src="./frontend/src/assets/edit.png" width="100%">
+<p align="center">
+Página de edição.
+</p>
+
+<br>
+  <img alt="Tela criação de recomendação" src="./frontend/src/assets/delete.png" width="100%">
+<p align="center">
+Página de exclusão.
+</p>
+
+<br>
+  <img alt="Tela criação de recomendação" src="./frontend/src/assets/modal.png" width="100%">
+<p align="center">
+Modal.
 </p>
 
 <p align="center">
-  <a href="https://github-api-eta-three.vercel.app/" style="font-weight: bold;" target="_blank">💎 Link para o projeto.</a>
+  <a href="https://lista-recomenda-es-mern.vercel.app/" style="font-weight: bold;" target="_blank">💎 Link para o projeto.</a>
 </p>
 
 ## 🚀 Tecnologias
@@ -41,9 +71,9 @@ O programa oferece diversas funcionalidades, permitindo que o usuário crie reco
 
 Ao adotar essa abordagem fullstack e integrar as tecnologias mencionadas, o projeto busca proporcionar uma experiência completa e personalizável para o usuário, garantindo uma gestão eficiente de suas recomendações culturais.
 
-## 🔖 Layout
+## 🔖 Referência
 
-O Layout do projeto foi baseado em um tutorial do Youtube. Sendo que, modificações foram feitas pelo desenvolvedor afim de torna-lo mais pessoal e do seu gosto.
+O projeto foi baseado em um tutorial do Youtube. Sendo que, modificações foram feitas pelo desenvolvedor afim de torna-lo mais pessoal e do seu gosto.
 <ul>
 <li>link de referência:</li>
 <a href="https://www.youtube.com/watch?v=-42K44A1oMA&list=PLjGomq7bcPFEgKqYGj6utbttp5u6PMEj1&index=33&t=474s">MERN Stack Tutorial - Book Store Project</a>
